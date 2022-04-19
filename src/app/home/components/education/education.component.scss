@@ -1,0 +1,32 @@
+.container-fluid {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+    margin-top: 25px;
+  text-align: center;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 123.6%;
+text-transform: capitalize;
+color: #2B2B2B;
+}
+.paragraph {
+    margin-top: 25px;
+  justify-content: center;
+    width: 450px;
+height: 68px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  text-transform: capitalize;
+  font-feature-settings: "calt" off, "kern" off;
+  color: #767676;
+}
