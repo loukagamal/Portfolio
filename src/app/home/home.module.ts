@@ -6,13 +6,15 @@ import { HomeComponent } from './components/home/home.component';
 import { PageComponent } from './components/page/page.component';
 import { CoreModule } from '../core/core.module';
 import { EducationComponent } from './components/education/education.component';
+import { WorkHistoryComponent } from './components/work-history/work-history.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
     PageComponent,
-    EducationComponent
+    EducationComponent,
+    WorkHistoryComponent
   ],
   imports: [
     CommonModule,

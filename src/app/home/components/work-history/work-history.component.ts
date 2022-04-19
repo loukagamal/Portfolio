@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-education',
-  templateUrl: './education.component.html',
-  styleUrls: ['./education.component.scss'],
+  selector: 'app-work-history',
+  templateUrl: './work-history.component.html',
+  styleUrls: ['./work-history.component.scss']
 })
-export class EducationComponent implements OnInit {
+export class WorkHistoryComponent implements OnInit {
   education = [
     {
       university: 'Egyptian e-Learning University',
@@ -23,7 +23,9 @@ export class EducationComponent implements OnInit {
       graduated: 'Project: Ecommerce ,ITI graduation project Web Application Using (Angular)features:Dashboard Responsive Web Site Lazy load component'
     },
   ];
-  constructor() {}
+  constructor() { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+  }
+
 }
