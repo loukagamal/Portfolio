@@ -7,6 +7,8 @@ import { PageComponent } from './components/page/page.component';
 import { CoreModule } from '../core/core.module';
 import { EducationComponent } from './components/education/education.component';
 import { WorkHistoryComponent } from './components/work-history/work-history.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { WorkHistoryComponent } from './components/work-history/work-history.com
     HomeComponent,
     PageComponent,
     EducationComponent,
-    WorkHistoryComponent
+    WorkHistoryComponent,
+    PortfolioComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,

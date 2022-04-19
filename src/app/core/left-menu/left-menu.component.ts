@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class LeftMenuComponent implements OnInit {
 
   socialIcon=[
-{icon:"assets/img/facebook.svg",liink:""},
-{icon:"assets/img/instagram.svg",liink:""},
-{icon:"assets/img/twitter.svg",liink:""},
-{icon:"assets/img/linkeding.svg",liink:""},
+{icon:"assets/img/facebook.svg",liink:"https://www.facebook.com/profile.php?id=100002376861507"},
+{icon:"assets/img/instagram.svg",liink:"https://www.instagram.com/loukagamal/"},
+{icon:"assets/img/twitter.svg",liink:"https://twitter.com/LoukaGamal2"},
+{icon:"assets/img/linkeding.svg",liink:"https://www.linkedin.com/in/louka-gamal/"},
   ]
   constructor() { }
 

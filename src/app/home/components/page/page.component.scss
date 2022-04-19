@@ -6,3 +6,20 @@
 
 
 }
+.footer{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+text-transform: capitalize;
+font-feature-settings: 'calt' off, 'kern' off;
+color: #2B2B2B;
+text-align: center;
+background-color: #FFFFFF;
+}

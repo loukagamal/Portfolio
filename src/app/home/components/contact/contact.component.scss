@@ -1,0 +1,99 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: start;
+  text-transform: capitalize;
+  color: #2b2b2b;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+ 
+  .info{
+      width: 570px;
+
+      background-color: #ffffff;}
+  
+}
+.form {
+  padding: 20px;
+}
+.label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  text-transform: capitalize;
+  color: #767676;
+}
+.input {
+  background-color: #f0f0f6;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.submit-message {
+  width: 159px;
+  height: 35px;
+  border: solid black 1.5px;
+  background-color: #ffb400;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #2b2b2b;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 25px;
+  a {
+    text-decoration: none;
+    color: #2b2b2b;
+  }
+}
+
+.card-info {
+  display: flex;
+margin-bottom: 18px;
+
+  .card {
+    width: 370px;
+    height: 210px;
+    align-items: center;
+  }
+  .img{
+      margin-top: 30px;
+      width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #FFB400;
+display: flex;
+align-items: center;
+justify-content: center;
+
+  }
+  .content{
+      padding: 25px;
+      width: 100%;
+  }
+}
+.location {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 123.6%;
+text-transform: capitalize;
+color: #767676;
+}

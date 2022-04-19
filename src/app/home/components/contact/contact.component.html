@@ -1,0 +1,64 @@
+<div class="container-fluid">
+    <div class="title">
+        <div >Leave us your info</div>
+        <div>Contact information</div>
+    </div>
+    <div class="contact">
+        <div class="info">
+            <form class="form">
+                <div class="label">
+                    <label for=""> Your Full Name*</label>
+                </div>
+                <div class="form-group">
+                    <input class="name input" type="text" placeholder="" />
+                </div>
+                <div class="label">
+                    <label for=""> Your Email *</label>
+                </div>
+                <div class="email">
+                    <input class="email input" type="text" placeholder="" />
+                </div>
+                <div class="label">
+                    <label for=""> Subject</label>
+                </div>
+                <div class="subject form-group">
+                    <input class="subject-input  input" type="text" placeholder="" />
+                </div>
+                <div class="label">
+                    <label for=""> Your Message</label>
+                </div>
+                <div class="your-message form-group">
+                    <textarea class="message input" placeholder="" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="submit-message">
+                    <a href="">send message</a>
+                </div>
+            </form>
+        </div>
+        <div class="information">
+            <div class="card-info" *ngFor="let index of contact">
+                <div class="card">
+                    <div class="img">
+                        <img src="{{index.img}}" alt="">
+                    </div>
+                 <div class="content">
+                        <div class="location">
+                            <div class="colme-1">{{index.colme1}}</div>
+                            <div class="colme-2">{{index.colme2}}</div>
+                        </div>
+                        <div class="location">
+                            <div class="colme-1">{{index.colme3}}</div>
+                            <div class="colme-2">{{index.colme4}}</div>
+                        </div>
+                        <div class="location">
+                            <div class="colme-1">{{index.colme5}}</div>
+                            <div class="colme-2">{{index.colme6}}</div>
+                        </div>
+                 </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
