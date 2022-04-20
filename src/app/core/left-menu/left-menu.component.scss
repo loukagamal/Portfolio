@@ -117,12 +117,11 @@ color: #7EB942;
 }
   }
 
-  .languages {
+  .content {
     border-top: 1.5px solid #F0F0F6;
     margin-top: 25px;
     
   width: 220px;
-  height: 126px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -164,105 +163,14 @@ color: #2B2B2B;
  
 }
   }
-   .skills {
-    border-top: 1.5px solid #F0F0F6;
-    margin-top: 25px;
-width: 220px;
-height: 242px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  .langu{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 123.6%;
-text-transform: capitalize;
-color: #2B2B2B;
-  }
-   .content-languages{
-      width: 100%;
-      display: flex;
-  justify-content: space-between; 
-  .left {
-   
-height: 24px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    text-transform: capitalize;
-    font-feature-settings: "calt" off, "kern" off;
-    color: #2b2b2b;
-  }
-  .right{
-      font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-text-align: right;
-text-transform: capitalize;
-font-feature-settings: 'calt' off, 'kern' off;
-color: #2B2B2B;
-  }
-}
-  }
-    .extra-skills {
-    border-top: 1.5px solid #F0F0F6;
-    margin-top: 25px;
-width: 220px;
-height: 200px;
-  display: flex;
-  flex-direction: column;
 
-  .langu{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 123.6%;
-text-transform: capitalize;
-color: #2B2B2B;
-margin-bottom: 15px;
-  }
-   .content-languages{
-      width: 100%;
-      display: flex;
-
-  .left {
-   
-height: 24px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    text-transform: capitalize;
-    font-feature-settings: "calt" off, "kern" off;
-    color: #2b2b2b;
-    margin-inline-end: 15px;
-  }
-  .right{
-      font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-text-align: right;
-text-transform: capitalize;
-font-feature-settings: 'calt' off, 'kern' off;
-color: #2B2B2B;
-  }
-
-}
-  }
   .progress{
       height: 4px;
-        .progress-bar{
+
+  }
+          .progress-bar{
 height: 4px;
 background: #FFB400;
-  }
   }
 
   .cv{
