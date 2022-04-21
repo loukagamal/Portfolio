@@ -4,6 +4,8 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+    background-color: #E4E6EB;
+    width: 100%;
 }
 .title {
   margin-top: 25px;
@@ -12,7 +14,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 123.6%;
   text-transform: capitalize;
   color: #2b2b2b;
 }
@@ -20,7 +21,6 @@
   margin-top: 25px;
   justify-content: center;
   width: 450px;
-  height: 68px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -40,6 +40,9 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  border-bottom: solid #2B2B2B 1.5px;
+
+  padding-bottom: 30px;
  
 
   .university {
@@ -54,7 +57,7 @@
   }
   .student {
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
 
     .student-label {
       font-family: "Inter";
@@ -64,6 +67,8 @@
       text-transform: capitalize;
       font-feature-settings: "calt" off, "kern" off;
       color: #2b2b2b;
+      margin-inline-end: 20px;
+
     }
     .period {
       font-family: "Inter";
@@ -91,6 +96,29 @@ color: #2B2B2B;
 }
 .graduated{
   max-width: 536px;
-height: 100px;
+
 text-align: start;
+}
+
+@media only screen and (max-width: 720px){
+
+.paragraph{
+   max-width: 450px;
+   max-width: 100%;
+   margin-bottom: 20px;
+}
+
+  .education{
+    margin: 0;
+  padding: 0;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .student{
+    display: flex;
+    justify-content: center;
+  }
+  .student-label{
+    margin-inline-end: 20px;
+  }
 }

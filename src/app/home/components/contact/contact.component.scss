@@ -1,3 +1,7 @@
+.container-fluid{
+ background-color: #E4E6EB;
+}
+
 .title {
   display: flex;
   justify-content: space-between;
@@ -9,26 +13,49 @@
   text-align: start;
   text-transform: capitalize;
   color: #2b2b2b;
+   height: 100px;
+   align-items: center;
+}
+
+.contact-information{
+     width: 100%;
+}
+.leave{
+   width: 100%;
+  
+}
+.info{
+  
+ border: solid saddlebrown 2px;
+
+}
+.information{
+  text-align: center;
+   border: solid saddlebrown 2px;
+  
 }
 .contact {
   display: flex;
   justify-content: space-between;
  
+   
+ 
   .info{
       width: 570px;
-
-      background-color: #ffffff;}
+    
+     
+    }
   
 }
 .form {
   padding: 20px;
+ background-color: #ffffff;
 }
 .label {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 123.6%;
   text-transform: capitalize;
   color: #767676;
 }
@@ -96,4 +123,36 @@ font-size: 18px;
 line-height: 123.6%;
 text-transform: capitalize;
 color: #767676;
+}
+
+@media only screen and (max-width: 720px){
+     .container-fluid {
+flex-direction: column;
+padding: 0px;
+margin: 0px;
+
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+     
+     width: 100%;
+}
+.info{
+  width: 700px;
+  max-width: 100%;
+  justify-content: center;
+  align-items:center;
+
+  .form {
+     max-width: 700px;
+  padding: 20px;
+ background-color: #ffffff;
+}
+}
+.card-info{
+justify-content: center;
+}
+   
 }

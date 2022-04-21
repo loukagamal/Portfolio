@@ -10,7 +10,6 @@ import { WorkHistoryComponent } from './components/work-history/work-history.com
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { ContactComponent } from './components/contact/contact.component';
 
-
 @NgModule({
   declarations: [
     HomeComponent,
@@ -18,16 +17,16 @@ import { ContactComponent } from './components/contact/contact.component';
     EducationComponent,
     WorkHistoryComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
   ],
-  imports: [
-    CommonModule,
-    HomeRoutingModule,
-    CoreModule
-  ],
-  exports:[
+  imports: [CommonModule, HomeRoutingModule, CoreModule],
+  exports: [
     HomeComponent,
-    PageComponent
-  ]
+    PageComponent,
+    EducationComponent,
+    WorkHistoryComponent,
+    PortfolioComponent,
+    ContactComponent,
+  ],
 })
-export class HomeModule { }
+export class HomeModule {}

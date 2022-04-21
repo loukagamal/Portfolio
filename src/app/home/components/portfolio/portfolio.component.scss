@@ -4,6 +4,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+    background-color: #E4E6EB;
 }
 .title {
   margin-top: 25px;
@@ -19,8 +20,7 @@
 .paragraph {
   margin-top: 25px;
   justify-content: center;
-  width: 450px;
-  height: 68px;
+  max-width: 450px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -29,10 +29,12 @@
   text-transform: capitalize;
   font-feature-settings: "calt" off, "kern" off;
   color: #767676;
+  margin-bottom: 20px;
 }
 .portfolio-saction{
  width: 100%;
   background-color: #ffffff;
+  height: 100%;
   
 }
 .portfolio{
@@ -44,9 +46,46 @@
 }
 .card-portfolio{
   margin: 10px;
+  max-width: 310px;
 }
 .img{
-  max-width: 310px;
+  
 height: 300px;
+max-width: 100%;
 
+}
+
+
+@media only screen and (max-width: 980px) {
+ .container-fluid {
+max-width: 970px;
+
+}
+
+ 
+    .introduction{
+     width: 100%;
+    
+ }
+
+}
+
+@media only screen and (max-width: 720px){
+     .container-fluid {
+flex-direction: column;
+padding: 0px;
+margin: 0px;
+
+}
+.portfolio-saction{
+  display: flex;
+  justify-content: center;
+}
+.portfolio{
+  display: flex;
+  flex-direction: column;
+
+}
+
+   
 }

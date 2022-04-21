@@ -4,23 +4,23 @@
     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
     mollit. lorem ipsum
     </div>
-    <div class="education-saction">
-        <div class="education" *ngFor="let index of education ">
+    <div class="work-saction">
+        <div class="work" *ngFor="let index of education ">
             <div class="left-saction">
-                <div class="university">
+                <div class="company">
                     {{index.jobdescription}}
                 </div>
+               <div class="department">
+                    {{index.companyname}}
+                </div>
+
+            </div>
+            <div class="right-saction">
                 <div class="student">
                     <div class="student-label">{{index.student}}</div>
                     <div class="period">
                         {{index.period}}
                     </div>
-                </div>
-
-            </div>
-            <div class="right-saction">
-                <div class="department">
-                    {{index.companyname}}
                 </div>
                 <div class="graduated">
                     {{index.description}}

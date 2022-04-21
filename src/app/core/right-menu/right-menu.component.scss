@@ -1,68 +1,49 @@
 .container-fluid{
-    width: 108px;
-
-display: flex;
+  
 background-color: #FFFFFF;
 align-items: center;
-  flex-direction: column;
-
-}
-.dark-mode{
-   
-    justify-content: center;
-    width: 30px;
-    margin-top: 50px;
-height: 30px;
-    .dark-img{
-cursor: pointer;
-        justify-content: center;
-        width: 100%;
-
-    }
-}
-.home{
-    margin-top: 150px;
-       justify-content: center;
-    width: 65px;
-height: 78px;
-.home-name{
-       justify-content: center;
-       text-align: center;
-background-color: #2B2B2B;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 15px;
-color: #FFFFFF;
-margin-bottom: 10px;
-
-}
-.home-icon{
-    display: flex;
-        justify-content: center;
-        cursor: pointer;
-     .home-img{
 display: flex;
-        justify-content: center;
-        align-items: center;
-width: 40px;
-height: 40px;
-    }
+max-width: 700px;
 }
- 
+.navbar{
+    display: none;
+    position: absolute;
 }
-.education{
-    margin-top: 30px;
-    cursor: pointer;
+.right-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 70px;
+    width: 100%;
+
+}
+@media screen and (max-width: 1450px)  {
+    .navbar{
+    display: block;
+    position: absolute;
+}
+  .container-fluid {
+  position: absolute;
+
+}
+.right-menu{
+  display: none;
+  position: absolute;
+}
+.container-fluid:hover {
+
+  .right-menu {
+    width: 50px;
+    display: block;
+   
+    flex-direction: column;
+    height: 1025;
+    
+  }
+  .icon{
+      margin-bottom: 30px;
+  }
+}
 }
 
-.portfolio{
-       margin-top: 30px;
-       cursor: pointer;
-}
-.contact{
-      margin-top: 30px;
-      margin-bottom: 30px;
-      cursor: pointer;
-}

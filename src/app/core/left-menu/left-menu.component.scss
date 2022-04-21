@@ -4,7 +4,34 @@
   align-items: center;
   flex-direction: column;
   background-color: #ffffff;
+
 }
+.but-hover{
+  display: none;
+}
+
+
+@media screen and (max-width: 1450px)  {
+  .container-fluid {
+  width: 50px;
+  position: absolute;
+
+}
+.left-menu {
+  display: none;
+}
+.container-fluid:hover {
+  width: 305px;
+  .left-menu {
+    width: 305px;
+    display: block;
+  padding-inline-start: 30px;
+  }
+}
+}
+
+
+
 .profile-card {
   display: flex;
   margin-top: 50px;
@@ -119,7 +146,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 123.6%;
     text-transform: capitalize;
     color: #2b2b2b;
   }

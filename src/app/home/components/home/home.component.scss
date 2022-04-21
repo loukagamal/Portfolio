@@ -1,5 +1,5 @@
 .container-fluid {
-width: 970px;
+max-width: 970px;
 height: 467px;
   display: flex;
   align-items: center;
@@ -33,7 +33,6 @@ color: #FFB400;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
 text-transform: capitalize;
 font-feature-settings: 'calt' off, 'kern' off;
 color: #767676;
@@ -77,8 +76,62 @@ height: 459.09px;
 }
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+@media only screen and (max-width: 980px) {
+ .container-fluid {
+max-width: 970px;
+
+}
+ 
+    .introduction{
+     width: 100%;
+    
+ }
+ .your-image{
+max-width: 325.72px;
+max-height: 459.09px;
+
+.img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+}
+}
+
+@media only screen and (max-width: 720px){
+     .container-fluid {
+max-width: 970px;
+height: 100%;
+display: flex;
+flex-direction: column;
+padding: 0px;
+margin: 0px;
+
+}
+    .introduction{
+     width: 100%;
+     height: auto;
+     padding: 0px;
+     margin: 0px;
+    
+ }
+.paragraph{
+    width: 100%;
+}
+    .jop{
+     width: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+ .your-image{
+max-width: 325.72px;
+max-height: 459.09px;
+
+
+.img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+}
 }
