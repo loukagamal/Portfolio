@@ -6,8 +6,11 @@
 }
 .content{
   display: flex;
- 
   flex-direction: row;
+  width: 100%;
+}
+.home{
+  max-width: 100%;
 }
 .left-menu{
   margin-inline-end: 30px;

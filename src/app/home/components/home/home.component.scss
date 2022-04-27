@@ -90,6 +90,9 @@ justify-content: center;
 }
 
 @media only screen and (max-width: 700px){
+    .container-fluid {
+        width: 90%;
+    }
 .about-me{
     width: 100%;
     display: flex;
@@ -102,7 +105,7 @@ max-width: 90%;
 }
 .introduction{
     width: 100%;
-    margin-inline-start: 30px;
+    // margin-inline-start: 30px;
 }
 .jop{
     max-width: 100%;
